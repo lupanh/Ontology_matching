@@ -1,0 +1,88 @@
+1. LR 1.0 10 folds
+Report: 
+predictNonSyn = 17222
+actualSyn = 876
+predictSyn = 1046
+totalSyn = 1247
+totalNonSyn = 17021
+actualNonSyn = 16851
+****************************
+
+------------------------------------
+Report by class Syn
+Precision = 0.8374760994263862
+Recall = 0.702485966319166
+F = 0.7640645442651549
+
+------------------------------------
+Report by class NonSyn
+Precision = 0.9784577865520846
+Recall = 0.9900123377004877
+F = 0.9842011506001227
+
+
+2. SVM 1.0 10 folds
+Report: 
+predictNonSyn = 17211
+actualSyn = 857
+predictSyn = 1057
+totalSyn = 1247
+totalNonSyn = 17021
+actualNonSyn = 16821
+****************************
+
+------------------------------------
+Report by class Syn
+Precision = 0.8107852412488175
+Recall = 0.6872493985565357
+F = 0.743923611111111
+
+------------------------------------
+Report by class NonSyn
+Precision = 0.9773400732089943
+Recall = 0.9882498090593972
+F = 0.9827646646412713
+
+3. SoftTFIDF 
+Report: 
+predictNonSyn = 17328
+actualSyn = 767
+predictSyn = 940
+totalSyn = 1247
+totalNonSyn = 17021
+actualNonSyn = 16848
+****************************
+
+------------------------------------
+Report by class Syn
+Precision = 0.8159574468085107
+Recall = 0.6150761828388132
+F = 0.7014174668495656
+
+------------------------------------
+Report by class NonSyn
+Precision = 0.9722991689750693
+Recall = 0.9898360848363786
+F = 0.98098925732918
+4. Log Map 
+Report: 
+predictNonSyn = 17532
+actualSyn = 728
+predictSyn = 736
+totalSyn = 1247
+totalNonSyn = 17021
+actualNonSyn = 17013
+****************************
+
+------------------------------------
+Report by class Syn
+Precision = 0.9891304347826086
+Recall = 0.5838011226944667
+F = 0.7342410489157841
+
+------------------------------------
+Report by class NonSyn
+Precision = 0.9703969883641341
+Recall = 0.9995299923623759
+F = 0.984748068185107
+
